@@ -41,7 +41,7 @@ export default function NewScreen() {
       );
     }
 
-    addPlant(name, Number(days));
+    addPlant(name, Number(days), imageUri);
     router.replace("/"); // Used replace instead because it will create another overlapping window on top if we had used navigate
   };
 
